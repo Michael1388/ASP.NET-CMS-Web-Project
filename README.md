@@ -13,6 +13,6 @@ The website was created with users in mind who are not technically savvy and wan
  The first story I completed was creating and styling the About Page. I was given a reference and specific images and text to work with, approved by the product owner. Using Bootstrap 4 and CSS, I made a professionally designed page and afterwards was assigned to the Rental Histories section of the website. 
  
  I was there tasked with, created and styled the Create and Index pages of the Rental Histories section. 
- I created the database model and then scaffolded the model to create the CRUD (create, read, update, delete) pages needed to continue building. I then created a sorting interface for the database to be viewed as chosen by the user's needs and the styling required, all using Visual Studio, pushing these new code modules to the master. 
+ I created the database model and then scaffolded the model to create the CRUD (create, read, update, delete) pages needed to continue building. I then created a sorting interface for the database to be viewed as chosen by the user's needs and the styling required, all using Visual Studio, pushing these new coded story modules to the master. 
  
  I became familiar with using Git and the Azure platform which was setup to coordinate the team's efforts. The project was managed using the Agile Scrum Framework having a Sprint Planning Session, Daily Standups and weekly Code Retrospectives. This was my second time using Azure and the Agile Scrum Framework after previously participating in an earlier two week Python project as well. 
