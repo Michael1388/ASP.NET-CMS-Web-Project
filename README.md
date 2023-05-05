@@ -1,4 +1,4 @@
-# ASP.NET Web Project
+# ASP.NET MVC Web Project
  
 A summary of my two-week internship with Prosper IT Consulting.
 Here I participated in the building out of an ASP.NET MVC and Entity Framework content management service (aka CMS) website. 
@@ -14,5 +14,5 @@ I was tasked there with creating and styling the Create and Index pages of the R
 I then created and styled a sort function for the database to be viewed as chosen by the user's sorting needs.
 
 The project was accomplished using Microsoft's Visual Studio, pushing newly coded story modules to the master sored on Azure.
-I gained more familiarity using Git and the Azure cloud services platform which was setup to coordinate the team's efforts. The project was managed using the Agile Scrum Framework having a Sprint Planning Session, Daily Stand-ups and Weekly Code Retrospectives. 
+I gained more experience using Git and the Azure cloud services platform which was setup to coordinate the team's efforts. The project was managed using the Agile Scrum Framework having a Sprint Planning Session, Daily Stand-ups and Weekly Code Retrospectives. 
 
