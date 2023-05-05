@@ -8,7 +8,7 @@ The website was created with users in mind who are not technically savvy and wan
 
 I came into the project mid development, initially reviewing code and documentation before beginning work. My contribution to the team I worked with involved setting up and styling the About page, then setting up the Rental Histories specific area of the website that I was assigned to in our sprint. By the end of the sprint, I had completed six important story parts of the website.
 
-The first story I completed was creating and styling the About Page. I was given a reference and specific images and text to work with, approved by the product owner. Using Bootstrap 4 and CSS, I made a professionally designed web page and afterwards was assigned to the Rental Histories section of the website.
+The first story I completed was creating and styling the About Page. I was given a reference and specific images and text to work with, approved by the product owner. Using Bootstrap 4 and CSS, I created a professionally designed web page and afterwards was assigned to the Rental Histories section of the website.
 
 I was tasked there with creating and styling the Create and Index pages of the Rental Histories section. I created the database model and created a scaffold of the model to create the CRUD (create, read, update, delete) pages needed to continue building. 
 I then created a sorting interface for the database to be viewed as chosen by the user's needs and the styling required. 
