@@ -1,4 +1,4 @@
-# ASP.NET_CMS_Web_Project
+# ASP.NET CMS Web Project
  
 This is the summary of my two-week internship with Prosper IT Consulting which was the last coding project I was involved in while studying at the Tech Academy. Here I participated remotely in the building out of an ASP .NET MVC and Entity Framework content management service (aka CMS) website. 
 
