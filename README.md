@@ -7,6 +7,6 @@ The website was created with users in mind who are not technically savvy and wan
 
  I came into the project mid way through development, initially reviewing code and documentation before beginning work. My contirbution to the team I worked with involved setting up and styling the About page, then setting up the Rental History specific area of the website that I was assigned to in our sprint. By the end of the sprint, I had completed six important parts of the website. 
  
- I will show those parts that I contributed to throughout this summary, with links and code highliting the specific areas I created as a sample of the skills I've gained and have to offer as a junior software developer.
+ I will show those parts that I contributed to throughout this summary, with links and code highliting the specific areas I created as a sample of the skills I've gained and have to offer as an entry level junior software developer.
  
  
