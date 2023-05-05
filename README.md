@@ -11,8 +11,8 @@ I came into the project mid development, initially reviewing code and documentat
 The first story I completed was creating and styling the About Page. I was given a reference and specific images and text to work with, approved by the product owner. Using Bootstrap 4 and CSS, I created a professionally designed web page and afterwards was assigned to the Rental Histories section of the website.
 
 I was tasked there with creating and styling the Create and Index pages of the Rental Histories section. I created the database model and created a scaffold of the model to create the CRUD (create, read, update, delete) pages needed to continue building. 
-I then created a sorting interface for the database to be viewed as chosen by the user's needs and the styling required. 
+I then created and styled a sort function for the database to be viewed as chosen by the user's sorting needs.
 
-The project was accomplished using Visual Studio, pushing newly coded story modules to the master.
-I gained more familiarity using Git and the Azure cloud services platform which was setup to coordinate the team's efforts. The project was managed using the Agile Scrum Framework having a Sprint Planning Session, Daily Stand-ups and Weekly Code Retrospectives. This was my second time using Azure and the Agile Scrum Framework after previously participating in an earlier two week Python project as well.
+The project was accomplished using Microsoft's Visual Studio, pushing newly coded story modules to the master sored on Azure.
+I gained more familiarity using Git and the Azure cloud services platform which was setup to coordinate the team's efforts. The project was managed using the Agile Scrum Framework having a Sprint Planning Session, Daily Stand-ups and Weekly Code Retrospectives. 
 
