@@ -8,7 +8,7 @@ Here I participated in the building out of an ASP.NET MVC and Entity Framework c
 The project involved the creation of an interactive website for managing the content and productions for a theater/acting company. 
 The website was created with users in mind who are not technically savvy and want to easily manage what displays on their website.
 
-I came into the project mid development, initially reviewing code and documentation before beginning work. My contribution to the team involved setting up and styling the About page, then setting up the Rental Histories specific areas of the website, Index page, Create and Edit pages that I was assigned to in our sprint. By the end of the sprint, I had completed two important sections and six story board items of the website project.
+I came into the project mid development, initially reviewing code and documentation before beginning work. My contribution to the team involved setting up and styling the About page, then setting up the Rental Histories specific areas of the website; Index page, Create and Edit pages that I was assigned to in our sprint. By the end of the sprint, I had completed two important sections and six story board items of the website project.
 
 Below we will look at each section.
 
