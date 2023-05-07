@@ -23,7 +23,7 @@ Below is an animated visual example of the About page I constructed.
 ![gif](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Summary%20Gif%20FIles/About.gif)
 
 
-Jump to:
+Jump to: Introduction, Home Page Styling, Blog-Authors Stories, Blog-Head Author Stories, Other Skills, Page Top
 
 ## Rental Histories - Create and Edit pages and functions
 Relevant files/folders: [Create.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Create.cshtml), [Edit.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Edit.cshtml) [Rent.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Rent.css)
