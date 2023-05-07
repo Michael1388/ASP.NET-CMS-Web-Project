@@ -18,7 +18,7 @@ I gained more experience using Git and the Azure DevOpscloud services platform w
 
 ## About Page
 
-Markup for the [About Page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Home/About.cshtml)
+Relevant files/folders: [About.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Home/About.cshtml), [Site.css]
 
 ## Rental Histories - Create and Edit pages and functions
 
