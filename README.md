@@ -20,6 +20,17 @@ I gained more experience using Git and the Azure DevOpscloud services platform w
 
 Relevant files/folders: [About.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Home/About.cshtml), [Site.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Site.css)
 
+
+Jump to:
+
 ## Rental Histories - Create and Edit pages and functions
+Relevant files/folders:
+
+Jump to:
 
 ## Rental Histories -  Index page: *view, sort, accordian dropdown, edit, delete and detail functions*
+Relevant files/folders:
+
+Jump to:
+
+
