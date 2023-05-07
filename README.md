@@ -28,7 +28,7 @@ Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/b
 
 
 ## Rental Histories - Create and Edit pages and functions
-Relevant files/folders: [Create.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Create.cshtml), [Edit.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Edit.cshtml) [Rent.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Rent.css) [JavaScript Query](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Scripts/Rent.js)
+Relevant files/folders: [Create.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Create.cshtml), [Edit.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Edit.cshtml), [Rent.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Rent.css), [JavaScript Query](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Scripts/Rent.js)
 
 I was tasked here with creating and styling the Create and Index pages of the Rental Histories section. I created the database model and a scaffold of the model to create the CRUD (create, read, update, delete) pages needed to continue building. I then created a Jquery script for flipping title text on the create/edit pages notes/damage input when checkbox changed. Each line item also included an "on hover" drop-down menu function to edit, delete or view the specific index database id item.
 
