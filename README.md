@@ -292,8 +292,11 @@ Controller to create the sort finctionality view
 
 ## Other relevant project details
 
-The project was accomplished using Microsoft's Visual Studio, pushing newly coded story modules to the master stored on Azure.
 We utilized a specific naming convention ( [Model]-[Page]-[Element/Name] ) for newly created code modules for all css styling class and id's to keep sections organized for other team members. 
 
-I gained more experience using Git and the Azure DevOps cloud services platform which was setup to coordinate the team's efforts. The project was managed using the Agile Scrum Framework having a Sprint Planning Session, Daily Stand-ups and Weekly Code Retrospectives. 
+The project was accomplished using Microsoft's Visual Studio, pushing newly coded story modules to the master stored on Azure.
+
+I gained more experience using Git and the Azure DevOps cloud services platform which was setup to coordinate the team's efforts. 
+
+The project was managed using the Agile Scrum Framework having a Sprint Planning Session, Daily Stand-ups and Weekly Code Retrospectives. 
 
