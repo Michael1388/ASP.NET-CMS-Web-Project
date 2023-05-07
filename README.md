@@ -15,7 +15,7 @@ The first story I completed was creating and styling the About Page. I was given
 
 Relevant files/folders: [About.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Home/About.cshtml), [Site.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Site.css)
 
-My first story was to create the necessary HTML skeleton and CSS styling to create the About page according to the Client's design including specific images and existing text from their current site. We utilized a specific naming convention ( [Model]-[Page]-[Element/Name] ) for all styling class and id's to keep sections organized for other team members. 
+My first story was to create the necessary HTML skeleton and CSS styling to create the About page according to the Client's design including specific images and existing text from their current site.
 
 Below is an animated visual example of the About page I constructed.
 
@@ -45,5 +45,7 @@ Jump to:
 ## Other relevant project details
 
 The project was accomplished using Microsoft's Visual Studio, pushing newly coded story modules to the master stored on Azure.
+We utilized a specific naming convention ( [Model]-[Page]-[Element/Name] ) for newly created code modules for all css styling class and id's to keep sections organized for other team members. 
+
 I gained more experience using Git and the Azure DevOps cloud services platform which was setup to coordinate the team's efforts. The project was managed using the Agile Scrum Framework having a Sprint Planning Session, Daily Stand-ups and Weekly Code Retrospectives. 
 
