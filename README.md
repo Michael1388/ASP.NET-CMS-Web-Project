@@ -10,7 +10,7 @@ The website was created with users in mind who are not technically savvy and wan
 
 I came into the project mid development, initially reviewing code and documentation before beginning work. My contribution to the team involved setting up and styling the About page, then setting up the Rental Histories specific areas of the website; Index page, Create and Edit pages that I was assigned to in our sprint. By the end of the sprint, I had completed two important sections and six story board items of the website project.
 
-Below we will look at each section.
+Below we will look at each section and those pages.
 
 
 ## About Page
