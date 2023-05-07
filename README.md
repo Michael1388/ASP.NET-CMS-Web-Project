@@ -32,6 +32,13 @@ Relevant files/folders: [Create.cshtml](https://github.com/Michael1388/ASP.NET-C
 
 I was tasked here with creating and styling the Create and Index pages of the Rental Histories section. I created the database model and a scaffold of the model to create the CRUD (create, read, update, delete) pages needed to continue building. I then created a script to call the title changes needed based on the user click on the checkbox feature which changed the title of the input field based on damaged state or non damaged state. Each item also included an "on hover" drop-down menu function to edit, delete or view the specific index id line item.
 
+Below is an animated visual example of the Create and Edit pages and functionality I constructed followed by the corresponding code snippets.
+
+![CreateGif](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Summary%20Gif%20FIles/Create%20and%20Edit.gif)
+
+
+Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [About Page Styling](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [Create and Edit Stories](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories---create-and-edit-pages-and-functions), [Index page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories----index-page-view-sort-accordian-dropdown-edit-delete-and-detail-functions), [Other Details](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#other-relevant-project-details), [Page Top](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#aspnet-mvc-web-project)
+
 Create.cshtml
 
         @model TheatreCMS3.Areas.Rent.Models.RentalHistory
