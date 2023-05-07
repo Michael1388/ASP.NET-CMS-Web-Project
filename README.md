@@ -25,98 +25,6 @@ Below is an animated visual example of the About page I constructed.
 
 Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [About Page Styling](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [Create and Edit Stories](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories---create-and-edit-pages-and-functions), [Index page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories----index-page-view-sort-accordian-dropdown-edit-delete-and-detail-functions), [Other Details](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#other-relevant-project-details), [Page Top](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#aspnet-mvc-web-project)
 
-    @{
-        ViewBag.Title = "About";
-    }
-
-    @* This about page is going to show the Mission Statement, Ensemble (including the images),
-        Company History, and Board.  Copy the text from Theatre Vertigos about page and use the
-        same images they are using for the Ensemble.
-        The font-family for the title is called 'broadway' *@
-    <style>
-        .body-content {
-            width: 100vw;
-            margin: 0;
-            padding: 0;
-            max-width: 100vw;
-        }
-    </style>
-    <div class="home-about--page">
-
-    <div class="home-about--title_logo_text">
-        <h1>About Us</h1>
-
-    </div>
-    
-    <div>
-        <img src="~/Content/images/theater.jpg" alt="About us" class="home-about--title_img" />
-
-      </div>
-
-      @* MISSION STATEMENT *@
-
-      <div class="home-about--mission_statement_text">
-          <div class="text-center">
-              <h3 class="home-about--title">WHO WE ARE</h3>
-              <p>
-                  To engage audiences through ensemble-driven productions with a focus on developing new works
-              </p>
-          </div>
-      </div>
-
-
-
-      @* COMPANY HISTORY *@
-
-      <div class="home-about--company_history">
-          <div class="text-center">
-              <h3 class="home-about--title">COMPANY HISTORY</h3>
-              <p class="home-about--company_history_text">
-                  In 1997, Theatre Vertigo was founded by Paul Floding, Nanette Pettit and Jeff Meyers. Since then, Theatre Vertigo has performed in numerous spaces
-                  including The Russell Street Theater, The Electric Company, Theater!Theatre!, and The Shoebox Theater. 
-                  <p>From 2003 to 2014, Theatre Vertigo produced Anonymous Theatre as a summer fundraiser in
-                  collaboration with The Anonymous Theatre Company.  Other past collaborations include defunkt theatre, 
-                  Stark Raving Theater, and Tears of Joy Theatre.</p>
-                  <p> Theatre Vertigo has worked on world premieres
-                  including Faust.Us by Joseph Fisher, 99 Ways to Fuck a Swan by Kim Rosenstock, and The End of Sex by Craig Jessen.</p>
-                  <p> In 2016, Theatre Vertigo produced its first officially commissioned work from a
-                  playwright, I Want To Destroy You, by Rob Handel.
-              </p>
-
-          </div>
-      </div>
-
-
-
-      @* ENSEMBLE *@
-      <div class="text-center">
-          <div class="home-about--ensemble">
-              <h3 class="home-about--title">ENSEMBLE</h3>
-
-              <img src="~/Content/images/ensemble.jpg" alt="Ensemble" class="home-about--ensemble_img" />
-
-              <p class="home-about--ensemble_text">
-                  Alexander Buckner, Victoria Alvarez-Chacon, Heath Hyun Houghton
-              </p>
-
-
-              @* BOARD *@
-
-              <div class="text-center">
-                  <div class="home-about--board">
-                      <h3 class="home-about--title">BOARD</h3>
-                      <p class="home-about--board_text">
-                      <p> Jamie Floyd (President) </p>
-                      <p>Tom Mounsey</p>
-                      <p>Marcia Reyes</p>
-                      <p>Lena-Liis-Kiesel</p>
-
-                  </div>
-
-              </div>
-          </div>
-      </div>
-  </div>
 
 
 ## Rental Histories - Create and Edit pages and functions
@@ -132,6 +40,8 @@ Below is an animated visual example of the Create and Edit pages and functionali
 
 Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [About Page Styling](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [Create and Edit Stories](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories---create-and-edit-pages-and-functions), [Index page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories----index-page-view-sort-accordian-dropdown-edit-delete-and-detail-functions), [Other Details](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#other-relevant-project-details), [Page Top](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#aspnet-mvc-web-project)
 
+
+
 ## Rental Histories -  Index page: *view, sort, accordian dropdown, edit, delete and detail functions*
 Relevant files/folders: [Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml), [Rent.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Rent.css)
 
@@ -143,6 +53,8 @@ Below is an animated visual example of the Index page sorting, edit, create and 
 
 
 Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [About Page Styling](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [Create and Edit Stories](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories---create-and-edit-pages-and-functions), [Index page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories----index-page-view-sort-accordian-dropdown-edit-delete-and-detail-functions), [Other Details](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#other-relevant-project-details), [Page Top](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#aspnet-mvc-web-project)
+
+
 
 ## Other relevant project details
 
