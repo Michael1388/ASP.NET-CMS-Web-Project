@@ -25,23 +25,23 @@ Below is an animated visual example of the About page I constructed.
 
 Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [About Page Styling](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [Create and Edit Stories](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories---create-and-edit-pages-and-functions), [Index page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories----index-page-view-sort-accordian-dropdown-edit-delete-and-detail-functions), [Other Details](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#other-relevant-project-details), [Page Top](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#aspnet-mvc-web-project)
 
-@{
-    ViewBag.Title = "About";
-}
-
-@* This about page is going to show the Mission Statement, Ensemble (including the images),
-    Company History, and Board.  Copy the text from Theatre Vertigos about page and use the
-    same images they are using for the Ensemble.
-    The font-family for the title is called 'broadway' *@
-<style>
-    .body-content {
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-        max-width: 100vw;
+    @{
+        ViewBag.Title = "About";
     }
-</style>
-<div class="home-about--page">
+
+    @* This about page is going to show the Mission Statement, Ensemble (including the images),
+        Company History, and Board.  Copy the text from Theatre Vertigos about page and use the
+        same images they are using for the Ensemble.
+        The font-family for the title is called 'broadway' *@
+    <style>
+        .body-content {
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            max-width: 100vw;
+        }
+    </style>
+    <div class="home-about--page">
 
     <div class="home-about--title_logo_text">
         <h1>About Us</h1>
