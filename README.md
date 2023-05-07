@@ -188,7 +188,7 @@ JavaScript .click function
     } else {
         $('.rental_history-create--damagesincurred').html('Notes');
     }
-});
+        });
 
 Below is an animated visual example of the Create and Edit pages and functionality I constructed.
 
