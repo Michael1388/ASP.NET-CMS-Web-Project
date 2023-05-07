@@ -1,7 +1,7 @@
 # ASP.NET MVC Web Project
 
 ## Introduction
-Overview of my two-week internship with Prosper IT Consulting.
+An overview of my two-week internship with Prosper IT Consulting;
 
 Here I participated in the building out of an ASP.NET MVC and Entity Framework content management service (aka CMS) website. 
 
