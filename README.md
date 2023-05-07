@@ -179,7 +179,7 @@ Edit.cshtml
     
     
     
-JavaScript .click function    
+Rent.js   
     
     $('#RentalDamaged').click(function () {
 
