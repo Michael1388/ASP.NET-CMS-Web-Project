@@ -18,6 +18,6 @@ I gained more experience using Git and the Azure DevOpscloud services platform w
 
 ## About Page
 
-## Create and Edit pages and functions
+## Rental Histories - Create and Edit pages and functions
 
-## Rental Histories Index page: view, sort, accordian dropdown, edit, delete and details.
+## Rental Histories -  Index page: view, sort, accordian dropdown, edit, delete and detail functions
