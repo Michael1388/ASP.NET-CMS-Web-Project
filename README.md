@@ -201,12 +201,12 @@ Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/b
 
 ## Rental Histories -  Index page: *view, sort, accordian dropdown, edit, delete and detail functions*
 
-Here I created and styled a sort function for the database to be viewed as chosen by the user's sorting needs. I created the sorting functionality for the Index page sort feature:
-
-
 Relevant files/folders: [Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml), [Rent.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Rent.css)
 
 Relevant MVC files/folders: [Rent Folder](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/tree/main/Rent), [Controller - RentalHistories.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Controllers/RentalHistoriesController.cs), [Model - RentalHistory.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Models/RentalHistory.cs), [View - Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml)
+
+
+Here I created and styled a sort function for the database to be viewed as chosen by the user's sorting needs. I created the sorting functionality for the Index page sort feature:
 
 
 Model for creating the database and scaffolding the CRUD pages
