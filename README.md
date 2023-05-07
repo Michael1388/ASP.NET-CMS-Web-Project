@@ -34,7 +34,10 @@ Jump to:
 
 ## Rental Histories -  Index page: *view, sort, accordian dropdown, edit, delete and detail functions*
 Relevant files/folders: [Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml), [Rent.css]()
+
 Relevant MVC files/folders: [Rent](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/tree/main/Rent) 
+
+
 Jump to:
 
 ## Other relevant project details
