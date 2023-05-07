@@ -21,6 +21,8 @@ Below is an animated visual example of the About page I constructed.
 
 ![gif](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Summary%20Gif%20FIles/About.cshtml.gif)
 
+![gif1](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Summary%20Gif%20FIles/About.gif)
+
 
 Jump to:
 
