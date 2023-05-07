@@ -18,6 +18,8 @@ I gained more experience using Git and the Azure DevOpscloud services platform w
 
 ## About Page
 
+Markup for the [About Page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Home/About.cshtml)
+
 ## Rental Histories - Create and Edit pages and functions
 
 ## Rental Histories -  Index page: *view, sort, accordian dropdown, edit, delete and detail functions*
