@@ -28,7 +28,7 @@ Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/b
 
 
 
-## Rental Histories - Create and Edit pages and functions
+## Rental Histories - Create and Edit pages
 Relevant files/folders: [Create.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Create.cshtml), [Edit.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Edit.cshtml), [Rent.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Rent.css), [JavaScript Query](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Scripts/Rent.js)
 
 I was then assigned to the Rental Histories section of the website where the CRUD (create, read, update, delete) components were addressed.
@@ -204,7 +204,7 @@ Rent.js - used Jquery for flipping text when checkbox changed
 
 
 
-## Rental Histories -  Index page: *view, sort, accordian dropdown, edit, delete and detail functions*
+## Rental Histories -  Index page
 
 Relevant files/folders: [Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml), [Rent.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Rent.css)
 
