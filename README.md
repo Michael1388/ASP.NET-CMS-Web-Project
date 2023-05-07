@@ -292,7 +292,7 @@ RentalHistories.cs - Controller to create the sort view
 
 
 
-## Other relevant project details
+## Other
 
 - We utilized a specific naming convention ( [Model]-[Page]-[Element/Name] ) for newly created code modules for all css styling class and id's to keep sections organized for other team members. 
 
