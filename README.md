@@ -206,7 +206,7 @@ Relevant files/folders: [Index.cshtml](https://github.com/Michael1388/ASP.NET-CM
 Relevant MVC files/folders: [Rent Folder](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/tree/main/Rent), [Controller - RentalHistories.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Controllers/RentalHistoriesController.cs), [Model - RentalHistory.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Models/RentalHistory.cs), [View - Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml)
 
 
-Here I created and styled a sort function for the database to be viewed as chosen by the user's sorting needs. I created the sorting functionality for the Index page sort feature:
+Here I created and styled the sorting functionality for the Index details page sort feature. I set the database to be able to be viewed as chosen by the user's sorting needs. Each viewable field included function to collapse and uncollapse the filed to view the notes or damages incurred notes, as per item. Each item included a function to edite, delete or view the details.
 
 
 Model for creating the database and scaffolding the CRUD pages
