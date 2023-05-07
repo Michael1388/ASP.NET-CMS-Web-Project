@@ -9,7 +9,7 @@ The website was created with users in mind who are not technically savvy and wan
 
 I came into the project mid development, initially reviewing code and documentation before beginning work. My contribution to the team involved setting up and styling the About page, then setting up the Rental Histories specific areas of the website, Index page, Create and Edit pages that I was assigned to in our sprint. By the end of the sprint, I had completed two important sections and six story board items of the website project.
 
-The first story I completed was creating and styling the About Page. I was given a reference and specific images and text to work with, approved by the product owner. Using Bootstrap 4 and CSS, I created a professionally designed web page and afterwards was assigned to the Rental Histories section of the website where the CRUD (create, read, update, delete) components were addressed.
+I completed the creation and styling of the About Page. I was given a reference and specific images and text to work with, approved by the product owner. Using Bootstrap 4 and CSS, I created a professionally designed web page and afterwards was assigned to the Rental Histories section of the website where the CRUD (create, read, update, delete) components were addressed.
 
 
 ## About Page
@@ -30,7 +30,7 @@ Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/b
 ## Rental Histories - Create and Edit pages and functions
 Relevant files/folders: [Create.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Create.cshtml), [Edit.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Edit.cshtml) [Rent.css](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Areas/Rent.css) [JavaScript Query](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Scripts/Rent.js)
 
-I was tasked here with creating and styling the Create and Index pages of the Rental Histories section. I created the database model and a scaffold of the model to create the CRUD (create, read, update, delete) pages needed to continue building. I then created a script to call the title changes needed based on the user click on the checkbox feature which changed the title of the input field based on damaged state or non damaged state. Each item also included an "on hover" drop-down menu function to edit, delete or view the specific index id line item.
+I was tasked here with creating and styling the Create and Index pages of the Rental Histories section. I created the database model and a scaffold of the model to create the CRUD (create, read, update, delete) pages needed to continue building. I then created a Jquery script for flipping title text on the create/edit pages notes/damage input when checkbox changed. Each line item also included an "on hover" drop-down menu function to edit, delete or view the specific index database id item.
 
 Below is an animated visual example of the Create and Edit pages and functionality I constructed followed by the corresponding code snippets.
 
@@ -188,7 +188,7 @@ Edit.cshtml
     
     
     
-Rent.js   
+Rent.js - used Jquery for flipping text when checkbox changed
     
     $('#RentalDamaged').click(function () {
 
