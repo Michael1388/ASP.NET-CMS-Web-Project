@@ -222,6 +222,7 @@ Below is an animated visual example of the Index page sorting I constructed foll
 Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [About Page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [Create and Edit Pages](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories---create-and-edit-pages-and-functions), [Index page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories----index-page-view-sort-accordian-dropdown-edit-delete-and-detail-functions), [Other](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#other-relevant-project-details), [Home](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#aspnet-mvc-web-project)
 
 Code Snippets:
+
 RentalHistory.cs - Model for creating the database and scaffolding the CRUD pages
 
     using System;
