@@ -63,6 +63,8 @@ Relevant files/folders: [Index.cshtml](https://github.com/Michael1388/ASP.NET-CM
 
 Relevant MVC files/folders: [Rent Folder](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/tree/main/Rent), [Controller - RentalHistories.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Controllers/RentalHistoriesController.cs), [Model - RentalHistory.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Models/RentalHistory.cs), [View - Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml)
 
+Here I created the sorting functionality for the Index page sort feature:
+
      using System;
     using System.Collections.Generic;
     using System.Data;
