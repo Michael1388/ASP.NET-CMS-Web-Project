@@ -210,7 +210,7 @@ Relevant files/folders: [Index.cshtml](https://github.com/Michael1388/ASP.NET-CM
 Relevant MVC files/folders: [Rent Folder](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/tree/main/Rent), [Controller - RentalHistories.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Controllers/RentalHistoriesController.cs), [Model - RentalHistory.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Models/RentalHistory.cs), [View - Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml)
 
 
-Here I created and styled the sorting functionality for the Index details page sort feature. I set the database to be able to be viewed as chosen by the user's sorting needs. Each viewable field included a boostrap function to collapse and uncollapse (accordian) the field to view the notes or damages incurred notes, as per item. 
+Here the sorting functionality for the Index details page sort feature was coded. I set the database to be able to be viewed as chosen by the user's sorting needs. Each viewable field included a boostrap function to collapse and uncollapse (accordian) the field to view the notes or damages incurred notes, as per item. 
 
 
 Below is an animated visual example of the Index page sorting I constructed followed by the corresponding code snippets.
@@ -221,7 +221,7 @@ Below is an animated visual example of the Index page sorting I constructed foll
 Jump to: [Introduction](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [About Page Styling](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#introduction), [Create and Edit Stories](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories---create-and-edit-pages-and-functions), [Index page](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#rental-histories----index-page-view-sort-accordian-dropdown-edit-delete-and-detail-functions), [Other Details](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#other-relevant-project-details), [Page Top](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/README.md#aspnet-mvc-web-project)
 
 Code Snippets:
-Model for creating the database and scaffolding the CRUD pages
+RentalHistory.cs - Model for creating the database and scaffolding the CRUD pages
 
     using System;
     using System.Collections.Generic;
@@ -239,7 +239,7 @@ Model for creating the database and scaffolding the CRUD pages
         }
     }
 
-Controller to create the sort finctionality view
+RentalHistories.cs - Controller to create the sort view
 
      using System;
     using System.Collections.Generic;
