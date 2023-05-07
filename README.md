@@ -32,21 +32,149 @@ Relevant files/folders: [Create.cshtml](https://github.com/Michael1388/ASP.NET-C
 
 I was tasked here with creating and styling the Create and Index pages of the Rental Histories section. I created the database model and created a scaffold of the model to create the CRUD (create, read, update, delete) pages needed to continue building. 
 
+Create.cshtml
 
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Web;
+        @model TheatreCMS3.Areas.Rent.Models.RentalHistory
 
-    namespace TheatreCMS3.Areas.Rent.Models
+    @{
+        ViewBag.Title = "Create";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+
+    @using (Html.BeginForm())
     {
-        public class RentalHistory
-        {
-            public int RentalHistoryID { get; set; }
-            public bool RentalDamaged { get; set; }
-            public string DamagesIncurred { get; set; }
-            public string Rental { get; set; }
-        }
+        @Html.AntiForgeryToken()
+
+    <div class="rental_history-create--title">
+        <h3>Create Rental History</h3>
+    </div>
+
+    <div class="container-fluid">
+        <div class="rental_history-create--form-horizontal">
+            <div class="rental_history-create--form">
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-row">
+
+                    <div class="col-md-8">
+                        @Html.LabelFor(model => model.Rental, htmlAttributes: new { @class = "control-label rental_history-create--name " })
+
+                        @Html.EditorFor(model => model.Rental, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Rental, "", new { @class = "text-danger" })
+
+                    </div>
+                    <div class="col-md-2">
+                        @Html.LabelFor(model => model.RentalDamaged, "Damaged?", htmlAttributes: new { @class = "rental_history-create--damage rental_history-create--name" })
+                        <div class="rental_history-create--checkbox">
+                      
+                            @Html.EditorFor(model => model.RentalDamaged)
+                            @Html.ValidationMessageFor(model => model.RentalDamaged, "", new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DamagesIncurred, "Notes", htmlAttributes: new { @class = "control-label rental_history-create--damagesincurred col-md-16" })
+                    <div class="col-md-16">
+                        @Html.EditorFor(model => model.DamagesIncurred, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DamagesIncurred, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <div class="rental_history-create--buttons">
+                            <button type="button" class="btn btn-dark">@Html.ActionLink("Back to List", "Index", null, new { @class = "text-white" })</button>
+                            <input type="submit" value="Create" class="btn btn-success" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    }
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+
+
+Edit.cshtml
+
+    @model TheatreCMS3.Areas.Rent.Models.RentalHistory
+
+    @{
+        ViewBag.Title = "Edit";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="rental_history-create--title">
+        <h3>Edit Rental History</h3>
+    </div>
+
+    <div class="container-fluid">
+        <div class="rental_history-create--form-horizontal">
+            <div class="rental_history-create--form">
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.RentalHistoryID)
+
+                <div class="form-row">
+
+                    <div class="col-md-8">
+                        @Html.LabelFor(model => model.Rental, htmlAttributes: new { @class = "control-label rental_history-create--name" })
+                        
+                            @Html.EditorFor(model => model.Rental, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Rental, "", new { @class = "text-danger" })
+                       
+                    </div>
+                    <div class="col-md-2">
+                        @Html.LabelFor(model => model.RentalDamaged, "Damaged?", htmlAttributes: new { @class = "rental_history-create--damage rental_history-create--name" })
+
+                        <div class="rental_history-create--checkbox">
+
+                            @Html.EditorFor(model => model.RentalDamaged)
+                            @Html.ValidationMessageFor(model => model.RentalDamaged, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                        
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DamagesIncurred, "Notes", htmlAttributes: new { @class = "control-label rental_history-create--damagesincurred col-md-16" })
+                    <div class="col-md-16">
+                        @Html.EditorFor(model => model.DamagesIncurred, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DamagesIncurred, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+              
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <div class="rental_history-create--buttons">
+                            <button type="button" class="btn btn-dark">@Html.ActionLink("Back to List", "Index", null, new { @class = "text-white" })</button>
+                            <input type="submit" value="Save" class="btn btn-success" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    }
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
     }
 
 Below is an animated visual example of the Create and Edit pages and functionality I constructed.
@@ -64,6 +192,26 @@ Relevant files/folders: [Index.cshtml](https://github.com/Michael1388/ASP.NET-CM
 Relevant MVC files/folders: [Rent Folder](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/tree/main/Rent), [Controller - RentalHistories.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Controllers/RentalHistoriesController.cs), [Model - RentalHistory.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Models/RentalHistory.cs), [View - Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml)
 
 I then created and styled a sort function for the database to be viewed as chosen by the user's sorting needs. Here I created the sorting functionality for the Index page sort feature:
+
+Model for creating the database and scaffolding the CRUD pages
+
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Web;
+
+    namespace TheatreCMS3.Areas.Rent.Models
+    {
+        public class RentalHistory
+        {
+            public int RentalHistoryID { get; set; }
+            public bool RentalDamaged { get; set; }
+            public string DamagesIncurred { get; set; }
+            public string Rental { get; set; }
+        }
+    }
+
+Controller to create the sort finctionality view
 
      using System;
     using System.Collections.Generic;
