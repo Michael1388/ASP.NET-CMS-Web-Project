@@ -16,3 +16,8 @@ I then created and styled a sort function for the database to be viewed as chose
 The project was accomplished using Microsoft's Visual Studio, pushing newly coded story modules to the master stored on Azure.
 I gained more experience using Git and the Azure DevOpscloud services platform which was setup to coordinate the team's efforts. The project was managed using the Agile Scrum Framework having a Sprint Planning Session, Daily Stand-ups and Weekly Code Retrospectives. 
 
+## About Page
+
+## Create and Edit pages and functions
+
+## Rental Histories Index page, sorting, accordian dropdown, editing, deleting and details.
