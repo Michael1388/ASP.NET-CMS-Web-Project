@@ -210,10 +210,10 @@ Relevant files/folders: [Index.cshtml](https://github.com/Michael1388/ASP.NET-CM
 Relevant MVC files/folders: [Rent Folder](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/tree/main/Rent), [Controller - RentalHistories.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Controllers/RentalHistoriesController.cs), [Model - RentalHistory.cs](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Models/RentalHistory.cs), [View - Index.cshtml](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Rent/Views/RentalHistories/Index.cshtml)
 
 
-Here I created and styled the sorting functionality for the Index details page sort feature. I set the database to be able to be viewed as chosen by the user's sorting needs. Each viewable field included function to collapse and uncollapse the field to view the notes or damages incurred notes, as per item. 
+Here I created and styled the sorting functionality for the Index details page sort feature. I set the database to be able to be viewed as chosen by the user's sorting needs. Each viewable field included a boostrap function to collapse and uncollapse (accordian) the field to view the notes or damages incurred notes, as per item. 
 
 
-Below is an animated visual example of the Index page sorting, edit, create and accordian detail collapse features I constructed followed by the corresponding code snippets.
+Below is an animated visual example of the Index page sorting I constructed followed by the corresponding code snippets.
 
 ![Index Sorting Gif](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Summary%20Gif%20FIles/Index%20Sorting.gif)
 
