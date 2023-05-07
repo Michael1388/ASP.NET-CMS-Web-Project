@@ -35,7 +35,7 @@ I was then assigned to the Rental Histories section of the website where the CRU
 Here the Create and Index pages of the Rental Histories section was undertaken. I completed the database model and a scaffold of the model to populate the CRUD (create, read, update, delete) pages needed to continue building. I then crafted a simple Jquery script for flipping the title text of the create/edit page input section of the notes/damage input when checkbox was changed. Each inventory item also included an "on hover" drop-down menu feature to edit, delete or view the specific index database id item.
 
 
-Below is an animated visual example of the Create and Edit pages and functionality I constructed followed by the corresponding code snippets.
+Below is an animated visual example of the Create and Edit pages I constructed followed by the corresponding code snippets.
 
 ![CreateGif](https://github.com/Michael1388/ASP.NET-CMS-Web-Project/blob/main/Summary%20Gif%20FIles/Create%20and%20Edit.gif)
 
